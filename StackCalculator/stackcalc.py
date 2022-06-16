@@ -1,10 +1,10 @@
-from Stackbycompo import *
+
 from math import *
 
 if int(input("0 = Composition // 1 = Inheritance = ")):    # composition과 inherit 중 선택
     from StackbyInherit import *
 else:
-    from Stackbycompo import *
+    from StackbyCompo import *
 
 def evalPostfix(expr):
     """
